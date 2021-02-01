@@ -1,26 +1,22 @@
-# README
-
+# READ ME! 
+________________________________________________________________
 This is an app for artists! Here, as a user, you can create an account and track your art projects through schedules and planning. You can plan your projects through goals and descriptions, schedule your projects via time and type, and describe your art projects through medium, idea, artist reference, content, price, and day. 
+________________________________________________________________
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# RUBY ON RAILS PROJECT
 
-Things you may want to cover:
+To use this app, just clone this repo: https://github.com/DahliaBloomstone/Art-Tracker-
 
-* Ruby version
+Then execute: 
+$ bundle 
+$ rails db:migrate 
+$ rails db:seed
+$ rails s 
 
-* System dependencies
+License
+The app is available as open source under the terms of the MIT License.
 
-* Configuration
+# MORE:
+To view more apps, go to my portfolio: https://github.com/DahliaBloomstone
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Or visit my website for art and code: https://www.dahliabloomstone.com/

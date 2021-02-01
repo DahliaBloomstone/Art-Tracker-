@@ -3,9 +3,9 @@ class ArtProjectsController < ApplicationController
 
     def index 
     if params[:art_plan_id] && artplan = ArtPlan.find_by_id(params[:art_plan_id])
-    @art_projects = artplan.art_projects.paginate(page: params[:page], per_page: 2)
+    @art_projects = artplan.art_projects
     else
-     @art_projects = current_user.art_projects.paginate(page: params[:page], per_page: 2)
+     @art_projects = current_user.art_projects
      end
 end 
 

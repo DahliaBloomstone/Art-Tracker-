@@ -16,11 +16,11 @@ Rails.application.routes.draw do
   resources :art_schedules
 
   resources :art_plans do
-    resources :art_schedules, only: [:new, :index, :create]
+    resources :art_schedules, only: [:new, :index, :create, :edit]
   end
 
   resources :art_projects do
-    resources :art_schedules, only: [:new, :index, :create]
+    resources :art_schedules, only: [:new, :index, :create, :edit]
   end
 end
 
